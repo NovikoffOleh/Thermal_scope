@@ -110,7 +110,8 @@ p{
   transition: all .3s;
 }
 .bike__link:hover{
-  background-color: #FF4040;
+  background-color: #ffcb00;
+  color: #131313;
 }
 
 .bike__list {
@@ -376,7 +377,8 @@ margin-bottom: 50px;
   transition: all .3s;
 }
 .form__btn:hover{
-  background: #FF4040;
+  background: #ffcb00;
+  color: #131313;
 }
 /*-----Footer--------------*/
 .footer {
@@ -645,6 +647,7 @@ margin-bottom: 50px;
   .form__btn{
     padding: 15px;
     letter-spacing: .9em;
+    padding-bottom: 5px;
   }
   .slider{
     display: none;
