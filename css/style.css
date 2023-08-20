@@ -589,6 +589,7 @@ margin-bottom: 50px;
   .slider__item{
     padding-left: 10px;
   }
+  
 }
 
 @media(max-width:580px){
@@ -671,6 +672,6 @@ margin-bottom: 50px;
   }
   .menu__link{
     font-size: 12px;
-  }
+}
 
 }
