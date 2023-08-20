@@ -321,7 +321,7 @@ margin-bottom: 50px;
   font-size: 32px;
   position: absolute;
   top: 30px;
-  left: 0;
+  left: -72px;
   right: 0;
   width: 220px;
   height: 100px;
@@ -345,7 +345,7 @@ margin-bottom: 50px;
 }
 .form__radio-style {
   border-radius: 30px;
-  width: 80px;
+  width: 70px;
   height: 12px;
 }
 .form__radio-style--grey {
@@ -358,6 +358,9 @@ margin-bottom: 50px;
   background: #ffff;
   border: 1px solid #6f6f6f;
   
+}
+.form__radio-style--green {
+  background: #055225;
 }
 .form__btn{
   background-color: #131313;
@@ -526,7 +529,7 @@ margin-bottom: 50px;
     right: auto;
   }
   .form__bike-img{
-    width: 430px;
+    width: 400px;
   }
   .form__bike-price{
     right: -20%;
@@ -538,7 +541,7 @@ margin-bottom: 50px;
 }
 @media(max-width:780px){
   .form__bike-price{
-    right: 0;
+    right: -65px;
     top: -55px;
     transform: translateX(50%);
   }
@@ -584,7 +587,8 @@ margin-bottom: 50px;
     padding-top: 25px;
   }
   .slider__img{
-    width: 250px;
+    width: 400px;
+    align-items: center;;
   }
   .slider__item{
     padding-left: 10px;
@@ -649,11 +653,11 @@ margin-bottom: 50px;
     bottom: 50px;
   }
   .form__bike-img{
-    width: 275px;
+    width: 240px;
   }
   .form__label-box{
     margin-bottom: 200px;
-    justify-content: center;
+    justify-content: space-around;
   }
   .price__inner{
     text-align: center;
